@@ -1,3 +1,68 @@
-body{
+:root{
+    --JetBlack: #353535;
+    --MingGreen: #3c6e71;
+    --white: #ffffff;
+    --Gray: #d9d9d9;
+    --Blue: #284b63;
+}
+
+html, body{
+    margin: 0;
+    padding:0;
+    background-color: var(--white);
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200vw;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navigasjon{
+    overflow: hidden;
+    background-color: var(--Blue);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+  
+.navigasjon a {
+    display: block;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo_link{
+    margin-right: auto;
+    width: 30%;
+}
+
+.logo_container_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo_img{
+    width: 40%;
+}
+
+.navigasjon a:hover:not(.logo_link){
+    background-color: #ffffff;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigasjon {flex-direction: column; }
+    .logo_link{
+        margin-right: 0;
+    }
 
 }

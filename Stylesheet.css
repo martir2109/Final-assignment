@@ -96,12 +96,13 @@ html, body{
 }
 
 .text_container{
-    font-size: 30px;
+     font-size: 35px;
     width: 40%;
 }
 
 .easy{
     color:#284B63;
+     font-weight: bold;
 }
 
 .challange{

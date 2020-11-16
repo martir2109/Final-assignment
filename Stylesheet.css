@@ -141,6 +141,22 @@ html, body{
     cursor: pointer;
 }
 
+/* app bilde -- bokser på hovedside challenge, soultion, app -- mission statement  */
+@media only screen and (max-width: 768px) {
+    
+  
+   .app_picture{
+    width: 100%;
+     
+}
+    .container_container{  
+    height: 300px;
+    }
+    .text_container{
+     font-size: 25px;
+    
+}
+}
 
 /*scrollbar*/
 ::-webkit-scrollbar{

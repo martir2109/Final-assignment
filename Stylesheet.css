@@ -224,3 +224,39 @@ html, body{
         font-size: 20px;
     }
 }
+
+
+/* app page */
+
+.login_picture{
+    margin-top: 30vh;
+    margin-left: 10vh;
+    width: 50%;
+}
+
+
+.app_background{
+    background-color: var(--white);
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+    
+}
+
+.intro_app{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image_container_app{
+    width: 35%;
+    float: right;
+}
+
+.text_container_app{
+     font-size: 1.2em;
+    width: 45%;
+    margin-top: 10vh;
+}

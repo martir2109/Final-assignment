@@ -16,8 +16,6 @@ html, body{
     scroll-behavior: smooth;
 }
 
-
-
 .navigasjon{
     position: fixed;
     width: 100%;
@@ -57,7 +55,7 @@ html, body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: var(--white);
+    background-color: var(--MingGreen);
     transition: width ease-in-out 300ms;
 }
 
@@ -65,10 +63,9 @@ html, body{
     width: 100%;
 }
 
-
 .logo_img{
-   width: 35%;
-  
+    width: 50%;
+    height: 100%;
 }
 
 .top_background{
@@ -91,18 +88,18 @@ html, body{
 }
 
 .app_picture{
-     margin-top: 100px;
+    margin-top: 100px;
     width: 80%;
 }
 
 .text_container{
-     font-size: 35px;
+    font-size: 35px;
     width: 40%;
 }
 
 .easy{
-    color:#284B63;
-     font-weight: bold;
+    color: var();
+    font-weight: bold;
 }
 
 .challange{
@@ -141,21 +138,29 @@ html, body{
     cursor: pointer;
 }
 
-/* app bilde -- bokser på hovedside challenge, soultion, app -- mission statement  */
-@media only screen and (max-width: 768px) {
-    
-  
-   .app_picture{
+/*footer*/
+footer{
+    background-color: var(--MingGreen);
+    height: 100px;
+    bottom:0;
+    left: 0;
     width: 100%;
-     
+    text-align: center;
+    justify-content: center;
 }
-    .container_container{  
-    height: 300px;
-    }
-    .text_container{
-     font-size: 25px;
-    
+
+.btnSouces{
+    background-color: var(--Gray);
+    color: black;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
 }
+
+.btnSouces:hover{
+    background-color: var(--Blue);
+    color: white;
 }
 
 /*scrollbar*/
@@ -182,6 +187,7 @@ html, body{
     width: 60px;
     right: 25px;
     bottom: 25px;
+    z-index: 10;
 }
 
 /*tablet*/
@@ -223,40 +229,4 @@ html, body{
     .text_container{
         font-size: 20px;
     }
-}
-
-
-/* app page */
-
-.login_picture{
-    margin-top: 30vh;
-    margin-left: 10vh;
-    width: 50%;
-}
-
-
-.app_background{
-    background-color: var(--white);
-    height: 100vh;
-    z-index: -1;
-    position: relative;
-    
-}
-
-.intro_app{
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.image_container_app{
-    width: 35%;
-    float: right;
-}
-
-.text_container_app{
-     font-size: 1.2em;
-    width: 45%;
-    margin-top: 10vh;
 }

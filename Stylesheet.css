@@ -12,7 +12,6 @@ html, body{
     box-sizing: border-box;
     font-family: 'Lexend Deca', 'Roboto', 'Ubuntu', 'Areal', sans-serif;
     line-height: 1.6;
-    max-width: 100vw;
     scroll-behavior: smooth;
 }
 
@@ -20,6 +19,7 @@ html, body{
     position: fixed;
     width: 100%;
     top: 0;
+    height: 100px;
     overflow: hidden;
     background-color: var(--Blue);
     display: flex;
@@ -55,7 +55,7 @@ html, body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: var(--MingGreen);
+    background-color: var(--white);
     transition: width ease-in-out 300ms;
 }
 
@@ -64,8 +64,7 @@ html, body{
 }
 
 .logo_img{
-    width: 50%;
-    height: 100%;
+    width: 40%;
 }
 
 .top_background{
@@ -73,7 +72,6 @@ html, body{
     height: 100vh;
     z-index: -1;
     position: relative;
-    
 }
 
 .intro{
@@ -88,7 +86,6 @@ html, body{
 }
 
 .app_picture{
-    margin-top: 100px;
     width: 80%;
 }
 
@@ -98,7 +95,6 @@ html, body{
 }
 
 .easy{
-    color: var();
     font-weight: bold;
 }
 
@@ -145,17 +141,21 @@ footer{
     bottom:0;
     left: 0;
     width: 100%;
-    text-align: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btnSouces{
-    background-color: var(--Gray);
-    color: black;
-    border-radius: 15px;
     text-decoration: none;
+    color: black;
+    background-color: var(--Gray);
+    border-radius: 15px;
+    text-align: center;
     padding: 15px;
     font-size: 20px;
+    width: 10%;
+    margin: auto;
 }
 
 .btnSouces:hover{
@@ -181,6 +181,20 @@ footer{
     border-radius: 5px;
 }
 
+/*sources*/
+.h1-sources{
+    margin-top: 130px;
+}
+
+.source-list{
+    border: outset var(--MingGreen) 10px;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
 /*to top button*/
 .btn-top{
     position: fixed;
@@ -195,6 +209,7 @@ footer{
     .navigasjon {
         flex-direction: column;
         position: static;
+        height: auto;
     }
 
     .navigasjon a{
@@ -219,9 +234,17 @@ footer{
        height: calc(100vh - 10px);
    }
 
+   .challange_container{
+       flex-direction: column;
+   }
+
    .btn-top{
        display: none;
    }
+
+   .h1-sources{
+    margin-top: auto;
+}
 }
 
 /*mobile*/

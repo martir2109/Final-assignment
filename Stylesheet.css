@@ -75,6 +75,7 @@ html, body{
     height: 100vh;
     z-index: -1;
     position: relative;
+    
 }
 
 .intro{
@@ -89,12 +90,14 @@ html, body{
 }
 
 .app_picture{
-    width: 80%;
+    width: 90%;
+   padding-top: 100px;
 }
 
 .text_container{
     font-size: 35px;
-    width: 40%;
+    width: 45%;
+    padding-left: 50px;
 }
 
 .easy{
@@ -255,4 +258,39 @@ footer{
     .text_container{
         font-size: 20px;
     }
+}
+
+/* app page */
+
+.login_picture{
+    margin-top: 150px;
+    
+    width: 50%;
+}
+
+
+.app_background{
+    background-color: var(--white);
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+    
+}
+
+.intro_app{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image_container_app{
+    width: 35%;
+    float: right;
+}
+
+.text_container_app{
+     font-size: 1.2em;
+    width: 55%;
+    margin-top: 10vh;
 }

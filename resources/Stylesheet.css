@@ -47,6 +47,10 @@ html, body{
     width: 15%;
 }
 
+.active{
+    border-bottom: solid var(--white) 0.3rem;
+}
+
 .navigasjon a::after{
     content: "";
     position: absolute;
@@ -59,12 +63,9 @@ html, body{
     transition: width ease-in-out 300ms;
 }
 
-.navigasjon a:not(:first-child):hover::after{
+.navigasjon a:not(:first-child):not(.active):hover::after{
     width: 100%;
 }
-
-
-
 
 .logo_img{
     width: 100%;
@@ -244,13 +245,17 @@ footer{
        flex-direction: column;
    }
 
+   .btnSouces{
+       width: min-content;
+   }
+
    .btn-top{
        display: none;
    }
 
    .h1-sources{
     margin-top: auto;
-}
+    }
 }
 
 /*mobile*/

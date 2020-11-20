@@ -63,8 +63,11 @@ html, body{
     width: 100%;
 }
 
+
+
+
 .logo_img{
-    width: 40%;
+    width: 100%;
 }
 
 .top_background{
@@ -136,7 +139,7 @@ html, body{
 
 /*footer*/
 footer{
-    background-color: var(--MingGreen);
+    background-color: var(--Blue);
     height: 100px;
     bottom:0;
     left: 0;
@@ -149,7 +152,7 @@ footer{
 .btnSouces{
     text-decoration: none;
     color: black;
-    background-color: var(--Gray);
+    background-color: var(--white);
     border-radius: 15px;
     text-align: center;
     padding: 15px;
@@ -159,7 +162,7 @@ footer{
 }
 
 .btnSouces:hover{
-    background-color: var(--Blue);
+    background-color: var(--MingGreen);
     color: white;
 }
 
@@ -198,7 +201,7 @@ footer{
 /*to top button*/
 .btn-top{
     position: fixed;
-    width: 60px;
+    width: 50px;
     right: 25px;
     bottom: 25px;
     z-index: 10;

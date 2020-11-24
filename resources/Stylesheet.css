@@ -283,6 +283,17 @@ footer>a{
 
 /* app page */
 
+.theapp_title{
+   
+   font-size: 2em;
+    padding-top:100px;
+     background-color: #ffffff;
+    height: 140px;
+    z-index: -1;
+    position: relative;
+    text-align: center;
+}
+
 .login_picture{
    margin-top: 150px;
     padding-left: 10px;

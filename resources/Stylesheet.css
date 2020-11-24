@@ -314,8 +314,12 @@ li a:hover{
         margin: auto;
     }
 
-   .text_container{
-       flex-direction: column;
+    .text_container{
+        flex-direction: column-reverse;
+    }
+    
+    .responsive{
+       flex-direction: column;       
    }
 
    .text_container>p{

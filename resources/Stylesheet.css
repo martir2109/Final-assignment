@@ -276,15 +276,15 @@ footer>a{
 /* app page */
 
 .login_picture{
-    margin-top: 150px;
-    
-    width: 50%;
+   margin-top: 150px;
+    padding-left: 10px;
+    width: 100%;
 }
 
 
 .app_background{
     background-color: #ffffff;
-    height: 100vh;
+    height: 110vh;
     z-index: -1;
     position: relative;
     
@@ -295,11 +295,13 @@ footer>a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
 
 .image_container_app{
+
     width: 35%;
-    float: right;
+    
 }
 
 .intro_text_app{

@@ -406,3 +406,29 @@ li a:hover{
     font-size: 2em;
      margin-left: 60px;
 }
+
+
+/* Work dates */
+
+.tabel{
+    text-align: center;
+}
+
+.tabel_boks_tekst{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+
+.tabel_boks_en {  
+    
+    background-color: #284b63;
+    width: 100%;
+    
+    border-radius: 25px;
+    height: 40px;
+  
+    
+}

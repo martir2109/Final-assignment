@@ -159,7 +159,7 @@ footer>a{
     text-decoration: none;
 }
 
-.btnSouces{
+.btnSources{
     background-color: #ffffff;
     border: outset #3c6e71 7px;
     border-radius: 15px;
@@ -171,13 +171,13 @@ footer>a{
     color: black;
 }
 
-.btnSouces:hover{
+.btnSources:hover{
     background-color: #3c6e71;
     color: #ffffff;
     cursor: pointer;
 }
 
-.btnSouces>a:hover{
+.btnSources>a:hover{
     color: #ffffff;
 }
 
@@ -253,7 +253,15 @@ footer>a{
        height: calc(100vh - 10px);
    }
 
-   .btnSouces{
+   .text_container{
+       flex-direction: column;
+   }
+
+   .text_container>p{
+       width: 90%;
+   }
+
+   .btnSources{
        width: min-content;
    }
 

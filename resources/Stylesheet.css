@@ -213,14 +213,15 @@ footer>a{
 
 ul{
     list-style: none;
-    background-color: #3c6e71;
+    background-color: #284b63;
     width: 15%;
     float: left;
     margin: 0;
     padding: 0;
-    border: outset 5px #284b63;
+    border: outset 5px #284b63 ;
     border-radius: 25px;
     position: absolute;
+    margin-left: 20px;
 }
 
 li a{
@@ -233,13 +234,13 @@ li a{
     padding: 15px 5px;
     text-decoration: none;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
     text-shadow: 2px 2px 2px black;
 }
 
 li a:hover{
-    background-color: #284b63;
+    background-color: #3c6e71;
     border: inset 3px #353535;
     border-radius: 25px;
 }

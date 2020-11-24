@@ -228,6 +228,7 @@ footer>a{
     }
 
     .intro{
+        margin-top: 180px;
         flex-direction: column;
     }
 

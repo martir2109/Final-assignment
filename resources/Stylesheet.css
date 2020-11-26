@@ -214,14 +214,15 @@ footer>a{
 ul{
     list-style: none;
     background-color: #284b63;
-    width: 15%;
+    width: 13%;
     float: left;
     margin: 0;
     padding: 0;
     border: outset 5px #284b63 ;
-    border-radius: 25px;
+   border-radius: 10px;
     position: absolute;
     margin-left: 20px;
+     border: outset #3c6e71 10px;
 }
 
 li a{
@@ -233,16 +234,16 @@ li a{
     margin-bottom: 15px;
     padding: 15px 5px;
     text-decoration: none;
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 20px;
     color: white;
     text-shadow: 2px 2px 2px black;
 }
 
 li a:hover{
-    background-color: #3c6e71;
+    background-color: #353535;
     border: inset 3px #353535;
-    border-radius: 25px;
+   border-radius: 10px;
 }
 
 .source-list{

@@ -241,7 +241,7 @@ li a{
 }
 
 li a:hover{
-    background-color: #353535;
+     background-color:  #3c6e71;
     border: inset 3px #353535;
    border-radius: 10px;
 }
@@ -514,7 +514,7 @@ li a:hover{
 }
 
 .sidenav a:hover {
-  background-color: #353535;
+  background-color:  #3c6e71;
     border: inset 3px #353535;
      border-radius: 10px;
 }

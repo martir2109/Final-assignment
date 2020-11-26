@@ -396,14 +396,13 @@ li a:hover{
 }
 
 .theapp_title{
-    font-size: 2em;
+    font-size: 1.6em;
     padding-top:100px;
     background-color: #ffffff;
-    height: 140px;
+    height: 100px;
     position: relative;
     text-align: center;
-    padding-top: 100px;
-    
+    padding-top: 70px;
 }
 
 .login_picture{
@@ -450,6 +449,7 @@ li a:hover{
     font-size: 2em;
      margin-left: 60px;
 }
+
 
 
 

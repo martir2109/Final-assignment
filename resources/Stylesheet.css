@@ -258,7 +258,7 @@ li a:hover{
 /*to top button*/
 .btn-top{
     position: fixed;
-    width: 50px;
+    width: 5%;
     right: 25px;
     bottom: 25px;
     z-index: 10;

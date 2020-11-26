@@ -378,21 +378,27 @@ li a:hover{
 .mobilbruker_boks{
    
     width: 40%;
-    padding: 10px;
+    height: auto;
     display: flex;
     vertical-align: top;
     display: inline-block;
     text-align: center;
+    
+    padding-bottom: 50px;
+   
+    
 }
 
 .mobilbruker_bilde{
     width:100%;
     height: 100%;
     border-radius: 15px;
+    
 }
 
 .caption {
     display: block;
+    font-size: 15px;
 }
 
 .theapp_title{
@@ -406,8 +412,7 @@ li a:hover{
 }
 
 .login_picture{
-   margin-top: 100px;
-    padding-left: 10px;
+   
     width: 100%;
 }
 
@@ -425,20 +430,18 @@ li a:hover{
     align-items: center;
 }
 
-.image_container_app{
-    width: 35%;
-}
 
 .intro_text_app{
     font-size: 1.2em;
-    width: 55%;
+    width: 80%;
     padding: inherit;
+    padding-bottom: 180px;
 }
 
 .tekstboks_app{
      border: outset #3c6e71 10px;
     border-radius: 15px;
-    width: 80%;
+   
     margin: auto;
     margin-bottom: 40px;
     padding: 10px;
@@ -447,10 +450,32 @@ li a:hover{
 
 .title_app{
     font-size: 2em;
-     margin-left: 60px;
+     
 }
 
+.intro_app_home{
+    width: 100%;
+    padding: inherit;
+    padding: 10px;
+    
+    
+    
+}
 
+.app_background_top{
+    
+    background-color: #ffffff;
+    height: 1150px;
+    
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+   
+    
+    margin-left: 70px;
+    margin-top: 50px;
+    
+}
 
 
 /* Work dates */

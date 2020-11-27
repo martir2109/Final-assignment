@@ -584,3 +584,26 @@ li a:hover{
     
 }
 
+/* group members */
+
+
+.group_sources{
+    width: 25%;
+    
+     
+}
+
+.source-list-group{
+    border: outset #3c6e71 10px;
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+

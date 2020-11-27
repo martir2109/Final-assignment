@@ -382,6 +382,10 @@ li a:hover{
 
 /* app page */
 
+.app_bakgrunn{
+    background-color: white;
+}
+
 .app_top_boks{
     background-color: #ffffff;
     height: 500px;

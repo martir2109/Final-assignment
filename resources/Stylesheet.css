@@ -363,6 +363,22 @@ li a:hover{
 }
 
 
+.myprofile{
+    width: 90%;
+    align-content: space-around;
+    
+   
+    
+}
+
+.profile_boks{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
 .app_background{
     background-color: #ffffff;
     height: 720px;

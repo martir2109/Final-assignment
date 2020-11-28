@@ -188,8 +188,9 @@ footer>a{
 
 /*challenge og solution side*/
 
-.intro-image{
+.intro-image-cs{
     width: 40%;
+     border-radius: 10px;
 }
 
 .intro-text{
@@ -215,6 +216,7 @@ footer>a{
 
 .images{
     width: 35%;
+     border-radius: 10px;
  }
 
 

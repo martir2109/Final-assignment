@@ -314,7 +314,6 @@ li a:hover{
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
-    
 }
 
 .info_app{
@@ -325,17 +324,13 @@ li a:hover{
     margin: auto 0;
     padding: 10px;
     font-size: 18px;
-    
 }
 
 .mobilbruker_boks{ 
     width: 40%;
-    height: 80%;
-    vertical-align: top;
-    display: inline-block;
     text-align: center;
     margin: auto 0;
-   
+    border: solid yellow 5px;
 }
 
 .mobilbruker_bilde{
@@ -351,46 +346,31 @@ li a:hover{
 
 .theapp_title{
     font-size: 1.6em;
-    padding-top:100px;
+    padding-top: 100px;
     background-color: #ffffff;
-    height: 100px;
-    position: relative;
     text-align: center;
-    padding-top: 70px;
 }
 
 .login_picture{
     width: 60%;
-    margin: auto;
-   
-    
+    border: solid;
 }
 
 .myprofile{
     width: 90%;
     align-content: space-around;
-    
-   
-    
 }
 
 .profile_boks{
     background-color: #ffffff;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
-
 
 .app_background{
     background-color: #ffffff;
-    height: 720px;
-    position: relative;
-    
-}
-
-.intro_app{
-    height: 100%;
+    border: solid;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -402,23 +382,16 @@ li a:hover{
     margin: auto;
     margin-bottom: 40px;
     padding: 10px;
+}
 
+.app_side{
+    width: 48%;
+    border: solid;
 }
 
 .title_app{
     font-size: 2em;
-}
-
-.app_side{
-    
-    width: 45%;
-}
-
-.app_background_top{
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-    
+    border: solid;
 }
 
 /* Work dates */

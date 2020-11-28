@@ -312,7 +312,7 @@ li a:hover{
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
-    border: solid;
+    
 }
 
 .info_app{
@@ -332,7 +332,7 @@ li a:hover{
     display: inline-block;
     text-align: center;
     margin: auto 0;
-    border: solid;
+   
 }
 
 .mobilbruker_bilde{
@@ -359,7 +359,7 @@ li a:hover{
 .login_picture{
     width: 90%;
     margin: auto;
-    border: solid;
+    
 }
 
 
@@ -390,7 +390,7 @@ li a:hover{
 }
 
 .app_side{
-    border: solid;
+    
     width: 45%;
 }
 

@@ -190,7 +190,7 @@ footer>a{
 
 .intro-image-cs{
     width: 40%;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 .intro-text{
@@ -216,7 +216,7 @@ footer>a{
 
 .images{
     width: 35%;
-     border-radius: 10px;
+    border-radius: 10px;
  }
 
 
@@ -325,6 +325,7 @@ li a:hover{
     margin: auto 0;
     padding: 10px;
     font-size: 18px;
+    
 }
 
 .mobilbruker_boks{ 
@@ -361,9 +362,9 @@ li a:hover{
 .login_picture{
     width: 90%;
     margin: auto;
+   
     
 }
-
 
 .myprofile{
     width: 90%;
@@ -385,6 +386,7 @@ li a:hover{
     background-color: #ffffff;
     height: 720px;
     position: relative;
+    
 }
 
 .intro_app{
@@ -416,6 +418,7 @@ li a:hover{
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
+    
 }
 
 /* Work dates */

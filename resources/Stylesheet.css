@@ -135,7 +135,9 @@ html, body{
     width: 100%;
 }
 
-.btnRead-more{
+.btn-readMore{
+    display: inline-block;
+    counter-reset: 'hei';
     background-color: #353535;
     color: #ffffff;
     height: 45px;
@@ -144,10 +146,11 @@ html, body{
     text-decoration: none;
     text-align: center;
     line-height: 45px;
-    width: min-content;
+    width: fit-content;
+    height: fit-content;
 }
 
-.btnRead-more:hover{
+.btn-readMore:hover{
     background-color: #3c6e71;
 }
 
@@ -219,8 +222,7 @@ footer>a{
 .images{
     width: 35%;
     border-radius: 10px;
- }
-
+}
 
 /*scrollbar*/
 ::-webkit-scrollbar{
@@ -274,11 +276,13 @@ li a{
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px 2px black;
+    text-align: center;
 }
 
 li a:hover{
-    background-color:  #3c6e71;
-    border: inset 3px #353535;
+    background-color:  #ffffff;
+    color: black;
+    text-shadow: none;
     border-radius: 10px;
 }
 

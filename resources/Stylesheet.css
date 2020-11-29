@@ -144,6 +144,7 @@ html, body{
     text-decoration: none;
     text-align: center;
     line-height: 45px;
+    width: min-content;
 }
 
 .btnRead-more:hover{
@@ -212,6 +213,7 @@ footer>a{
     border-radius: 30px;
     background-color: #ffffff;
     height: fit-content;
+    padding: 20px;
 }
 
 .images{
@@ -300,6 +302,7 @@ li a:hover{
     z-index: 10;
     border-radius: 100%;
 }
+
 .btn-top:hover{
     content: url("img/arrow1.png");
 }
@@ -330,7 +333,6 @@ li a:hover{
     width: 40%;
     text-align: center;
     margin: auto 0;
-    border: solid yellow 5px;
 }
 
 .mobilbruker_bilde{
@@ -352,8 +354,7 @@ li a:hover{
 }
 
 .login_picture{
-    width: 60%;
-    border: solid;
+    width: 20%;
 }
 
 .myprofile{
@@ -361,19 +362,10 @@ li a:hover{
     align-content: space-around;
 }
 
-.profile_boks{
+.app-image-container{
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;   
-}
-
-.app_background{
-    background-color: #ffffff;
-    border: solid;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .tekstboks_app{
@@ -382,69 +374,18 @@ li a:hover{
     margin: auto;
     margin-bottom: 40px;
     padding: 10px;
-}
-
-.app_side{
-    width: 48%;
-    border: solid;
+    width: 50%;
 }
 
 .title_app{
     font-size: 2em;
-    border: solid;
 }
-
-/* Work dates */
-/* Lot det bare være igjen i css fila, i tilfelle vi ombestemmer oss hehhe
-
-.sidenav {
-    list-style: none;
-    background-color: #284b63;
-    width: 13%;
-    float: left;
-    margin: 0;
-    padding: 0;
-    border: outset 5px #284b63 ;
-    border-radius: 10px;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 300px;
-    border: outset #3c6e71 10px;   
-}
-
-.sidenav a {
-    display: block;
-    width: 90%;
-    height: min-content;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 15px 5px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    color: white;  
-}
-
-.sidenav a:hover {
-    background-color:  #3c6e71;
-    border: inset 3px #353535;
-    border-radius: 10px;
-}
-
-.dates{
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-}
-*/
-
 
 /* Sources images */
 
 .img_sources{
     width: 30%;
+    text-align: center;
 }
 
 .source-list-img{

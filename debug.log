@@ -5,3 +5,4 @@
 [1127/185550.659:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)
 [1127/202345.980:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)
 [1128/163500.438:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)
+[1129/134500.876:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)

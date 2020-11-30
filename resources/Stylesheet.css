@@ -299,25 +299,22 @@ footer>a{
 
 /*Download file box*/
 
-.source-menu-download{
+.worknotes-download{
     list-style: none;
     background-color: #284b63;
     width: 40%;
     margin: auto;
-    margin-bottom: 10px;
-    border: outset 5px #284b63 ;
+    margin-bottom: 20px;
+    padding: 0;
     border-radius: 10px;
     border: outset #3c6e71 10px;
 }
 
-
-.source-menu-download-li a{
+.worknotes-download-li a{
     display: block;
     width: 90%;
     height: min-content;
     margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
     padding: 15px;
     text-decoration: none;
     font-size: 20px;
@@ -325,7 +322,7 @@ footer>a{
     text-align: center;
 }
 
-.source-menu-download-li a:hover{
+.worknotes-download-li a:hover{
     background-color:  #ffffff;
     color: black;
     text-shadow: none;
@@ -581,7 +578,7 @@ footer>a{
         max-width: 100%;
     }
     
-  .source-menu-download{
+  .worknotes-download{
         position: static;
         display: flex;
         flex-wrap: wrap;
@@ -594,7 +591,7 @@ footer>a{
         
     }
     
-    .source-menu-download-li{
+    .worknotes-download-li{
         max-width: 100%;
     }
 

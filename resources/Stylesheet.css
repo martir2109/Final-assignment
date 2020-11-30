@@ -73,7 +73,7 @@ html, body{
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: left;
+    align-items: center;
 }
 
 .image_container{
@@ -89,6 +89,7 @@ html, body{
 .intro_text{
     font-size: 25px;
     width: 45%;
+    text-align: left;
 }
 
 .easy{

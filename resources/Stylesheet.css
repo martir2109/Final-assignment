@@ -582,6 +582,23 @@ footer>a{
     .source-menu-li{
         max-width: 100%;
     }
+    
+  .source-menu-download{
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        float: none;
+        width: fit-content;
+        max-width: 70%;
+        margin: 20px auto; 
+        margin-top: 50px;
+        
+    }
+    
+    .source-menu-download-li{
+        max-width: 100%;
+    }
 
     .h1-sources{
         margin: auto;

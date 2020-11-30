@@ -466,6 +466,7 @@ footer>a{
 
 .groupmember-image{
     width: 25%;
+     border-radius: 10px;
 }
 
 .source-list-group{

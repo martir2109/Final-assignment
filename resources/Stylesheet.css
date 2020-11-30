@@ -88,7 +88,6 @@ html, body{
 .intro_text{
     font-size: 25px;
     width: 45%;
-    padding-left: 50px;
 }
 
 .easy{
@@ -206,6 +205,7 @@ footer>a{
     display: flex; 
     align-items: center; 
     justify-content: space-around;
+    height: fit-content;
     padding: 50px 0;
 }
 
@@ -214,9 +214,9 @@ footer>a{
     text-align: center;
     border: outset #3c6e71 7px;
     border-radius: 30px;
-    background-color: #ffffff;
     height: fit-content;
     padding: 20px;
+    background-color: #ffffff;
 }
 
 .images{
@@ -249,7 +249,7 @@ footer>a{
     font-size: 40px;
 }
 
-ul{
+.source-menu{
     list-style: none;
     background-color: #284b63;
     width: 13%;
@@ -257,13 +257,13 @@ ul{
     margin: 0;
     padding: 0;
     border: outset 5px #284b63 ;
-    border-radius: 10px;
+    border-radius: 15px;
     position: absolute;
     margin-left: 20px;
     border: outset #3c6e71 10px;
 }
 
-li a{
+.source-menu-li a{
     display: block;
     width: 90%;
     height: min-content;
@@ -272,14 +272,13 @@ li a{
     margin-bottom: 15px;
     padding: 15px 5px;
     text-decoration: none;
-    text-align: left;
     font-size: 20px;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    /*text-shadow: 2px 2px 2px black;*/
     text-align: center;
 }
 
-li a:hover{
+.source-menu-li a:hover, .sources-active a{
     background-color:  #ffffff;
     color: black;
     text-shadow: none;
@@ -403,7 +402,7 @@ li a:hover{
 
 .img_sources{
     width: 30%;
-    text-align: center;
+    display: inline-block;
 }
 
 .source-list-img{
@@ -419,9 +418,17 @@ li a:hover{
     justify-content: space-around;
 }
 
+.source-list-img>p{
+    width: 100%;
+}
+
+.source-list-img>div{
+    width: 65%;
+}
+
 /* group members */
 
-.group_sources{
+.groupmember-image{
     width: 25%;
 }
 
@@ -440,6 +447,10 @@ li a:hover{
 
 /*small laptop*/
 @media only screen and (max-width: 1024px) {
+    .navigasjon{
+        width: 100%;
+    }
+
     .navigasjon a:first-child{
         display: none;
     }
@@ -465,19 +476,21 @@ li a:hover{
     }
     
     .challange-solution{
-        border:solid;
-        width: 80%;
+        width: 90%;
         flex-direction: column-reverse;
         margin: 20px auto;
+        padding: 0 0 10px 0;
         border: outset #3c6e71 7px;
         border-radius: 30px;
+        max-height: fit-content;
         background-color: #ffffff;
-        height: min-content;
    }
    
    .challange-solution>div{
        border: none;
-       width:90%;
+       height: fit-content;
+       width: 90%;
+       background-color: transparent;
     }
 
     .challange-solution>img{
@@ -511,6 +524,47 @@ li a:hover{
     }
     .theapp_title{
         padding-top: 0;
+    }
+
+    .source-menu{
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        float: none;
+        width: fit-content;
+        max-width: 70%;
+        margin: 20px auto; 
+        margin-top: 110px;
+    }
+    
+    .source-menu-li{
+        max-width: 100%;
+    }
+
+    .h1-sources{
+        margin: auto;
+    }
+    
+    .source-list{
+        width:80%;
+    }
+
+    .source-list-img{
+        width: 80%; 
+        flex-direction: column;  
+    }
+
+    .source-list-img>div{
+        width: 90%;
+    }
+
+    .img_sources{
+        width: 60%;
+    }
+
+    .groupmember-image{
+        width: 50%;
     }
 }
 
@@ -570,11 +624,17 @@ li a:hover{
        display: none;
    }
 
-   .h1-sources{
-    margin-top: auto;
+    .intro-image-cs{
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .source-list-group{
+        flex-direction: column;
     }
 }
 
+/*mobile*/
 
 @media only screen and (max-width: 480px){
     .mobilbruker_boks{
@@ -585,8 +645,6 @@ li a:hover{
         width: 60%;
     }
 }
-
-/*mobile*/
 
 @media only screen and (max-width: 425px) {
     .text_container{

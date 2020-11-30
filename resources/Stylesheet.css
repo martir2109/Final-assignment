@@ -277,7 +277,6 @@ footer>a{
     text-decoration: none;
     font-size: 20px;
     color: white;
-    /*text-shadow: 2px 2px 2px black;*/
     text-align: center;
 }
 
@@ -303,15 +302,11 @@ footer>a{
 .source-menu-download{
     list-style: none;
     background-color: #284b63;
-    width: 13%;
-    float: left;
-    margin: 0;
-    padding: 0;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
     border: outset 5px #284b63 ;
     border-radius: 10px;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 450px;
     border: outset #3c6e71 10px;
 }
 
@@ -323,20 +318,20 @@ footer>a{
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 15px 5px;
+    padding: 15px;
     text-decoration: none;
     font-size: 20px;
     color: white;
-    /*text-shadow: 2px 2px 2px black;*/
     text-align: center;
 }
 
-.source-menu-download-li a:hover, .sources-active a{
+.source-menu-download-li a:hover{
     background-color:  #ffffff;
     color: black;
     text-shadow: none;
     border-radius: 10px;
 }
+
 
 /*to top button*/
 .btn-top{
@@ -704,6 +699,10 @@ footer>a{
 
     .app-image-container{
         width: 60%;
+    }
+
+    .img_sources{
+        width: 80%;
     }
 }
 

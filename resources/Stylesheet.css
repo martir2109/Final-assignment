@@ -303,15 +303,11 @@ footer>a{
 .source-menu-download{
     list-style: none;
     background-color: #284b63;
-    width: 13%;
-    float: left;
-    margin: 0;
-    padding: 0;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
     border: outset 5px #284b63 ;
     border-radius: 10px;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 450px;
     border: outset #3c6e71 10px;
 }
 

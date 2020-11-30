@@ -391,10 +391,11 @@ footer>a{
 }
 
 .theapp_title{
-    font-size: 1.6em;
+    font-size: 3em;
     padding-top: 100px;
     background-color: #ffffff;
     text-align: center;
+    margin: 0; 
 }
 
 .login_picture{

@@ -31,6 +31,7 @@ html, body{
     margin-right: 5rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .navigasjon a:first-child{
@@ -57,10 +58,26 @@ html, body{
 
 .navigasjon a:not(:first-child):not(.active):hover::after{
     width: 100%;
+}   
+
+.logo-burger-container{
+    display: flex;
+    align-items: center;
+}
+
+.bugermenu{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    display: none;
+}
+
+.bugermenu:hover{
+    cursor: pointer;
 }
 
 .logo_img{
-    width: 100%;
+    width: 200%;
 }
 
 .top_background{
@@ -556,8 +573,7 @@ footer>a{
     }
 }
 
-/*small laptop*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1250px){
     .navigasjon{
         width: 100%;
     }
@@ -569,6 +585,11 @@ footer>a{
     .navigasjon a{
         margin: auto;
     }
+}
+
+/*small laptop*/
+@media only screen and (max-width: 1024px) {
+    
 
     .top_background{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 40% 100%, 0 76%);
@@ -695,11 +716,16 @@ footer>a{
 
 /*tablet*/
 @media only screen and (max-width: 768px) {    
+    .logo_img{
+        width: 100%;
+    }
+    
     .navigasjon {
         flex-direction: column;
         position: static;
         height: auto;
         padding-bottom: 5px;
+        background-color: rgba(40, 75, 99, 0.85);
     }
 
     .navigasjon a{
@@ -714,7 +740,24 @@ footer>a{
         width: 30%;
         min-width: 200px;
     }
+
+    .nav-link{
+        display: none;
+    }
+
+    .bugermenu{
+        display: block;
+    }
+
+    input[type="checkbox"]:checked ~ .nav-link{
+        display: block;
+    } 
     
+    .logo-burger-container{
+        background-color: #284b63 ;
+        opacity: inherit;
+    }
+
     .top_background{
         height: min-content;
         clip-path: none;

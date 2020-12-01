@@ -2,7 +2,7 @@ window.onload = function() {oppstart()};
             
     function oppstart(){
         document.getElementById("btnTop").style.display = "none";
-    }
+    }   
     
 window.onscroll = function() {topButton()};
 

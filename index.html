@@ -20,12 +20,16 @@
     <body id="top">   
         <header>   
             <nav>
-                <div class="navigasjon">                        
-                    <a href="#top" tabindex="1"> <img src="resources/img/logo-hvit-ny.png" alt="This is a picture of the logo. Takes you to homepage" class="logo_img"/></a><!--logobilde-->
-                    <a href="#top" tabindex="2" class="active">Home</a>
-                    <a href="resources/challenge.html" tabindex="3">Challenge</a>
-                    <a href="resources/solution.html" tabindex="4">Solution</a>
-                    <a href="resources/theapp.html" tabindex="5">The app</a>
+                <div class="navigasjon">
+                    <input id="checkbox" type="checkbox" style="display: none;">
+                    <div class="logo-burger-container">
+                        <a href="#top" tabindex="1"> <img src="resources/img/logo-hvit-ny.png" alt="This is a picture of the logo. Takes you to homepage" class="logo_img"/></a><!--logobilde-->
+                        <label for="checkbox" tabindex="2"><img src="resources/img/hamburgermenu.png" alt="open and close menu" id="burgermenu" class="bugermenu" id="burgermenu"></label>
+                    </div>                        
+                    <a href="#top" tabindex="3" class="nav-link active">Home</a>
+                    <a href="resources/challenge.html" class="nav-link" tabindex="4">Challenge</a>
+                    <a href="resources/solution.html" class="nav-link" tabindex="5">Solution</a>
+                    <a href="resources/theapp.html" class="nav-link" tabindex="6">The app</a>
                 </div>
             </nav>
         </header>

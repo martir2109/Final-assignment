@@ -482,6 +482,80 @@ footer>a{
     justify-content: space-around;
 }
 
+/*big screen*/
+
+@media only screen and (min-width: 1700px){
+    .navigasjon{
+        height: 15vh;
+    }
+
+    .navigasjon a{
+        font-size: 35px;
+    }
+
+    .intro_text{
+        font-size: 30px;
+    }
+
+    .text_container{
+        font-size: 22px;
+    }
+
+    .content>h1{
+        font-size: 40px;
+    }
+
+    .challange-solution>div{
+        font-size: 25px;
+    }
+
+    .theapp_title{
+        padding-top: 15vh;
+        font-size: 55px;
+    }
+
+    .info_tekst{
+        font-size: 25px;
+    }
+
+    .caption{
+        font-size: 19px;
+    }
+
+    .app-content{
+        font-size: 25px;
+    }
+
+    .btn-readMore{
+        font-size: 20px;
+    }
+
+    .btnSources{
+        font-size: 24px;
+    }
+
+    .h1-sources{
+        margin-top: 16vh;
+        font-size: 50px;
+    }
+
+    .source-menu-li a{
+        font-size: 25px;
+    }
+
+    .source-list, .source-list-img, .source-list-group{
+        font-size: 25px;
+    }
+
+    .worknotes-download-li a{
+        font-size: 22px;
+    }
+
+    ::-webkit-scrollbar{
+        width: 20px;
+    }
+}
+
 /*small laptop*/
 @media only screen and (max-width: 1024px) {
     .navigasjon{
@@ -558,9 +632,6 @@ footer>a{
 
     .tekstboks_app{
         width: auto;
-    }
-    .theapp_title{
-        padding-top: 0;
     }
 
     .source-menu{
@@ -685,6 +756,10 @@ footer>a{
 
     .source-list-group{
         flex-direction: column;
+    }
+
+    .theapp_title{
+        padding-top: 0;
     }
 }
 

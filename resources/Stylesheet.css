@@ -758,6 +758,10 @@ footer>a{
         flex-direction: column;
     }
 
+    .source-menu{
+        margin-top: 10px;
+    }
+
     .theapp_title{
         padding-top: 0;
     }
